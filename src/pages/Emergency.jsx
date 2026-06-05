@@ -4,7 +4,7 @@ import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 
 function Emergency({setCurrentPage}) {
     return (
-        <div className="mt-50 text-center">
+        <div className="mt-45 text-center">
             <div className="max-w-4xl mx-auto">
                 <h1 className="font-semibold mb-4">Need Emergency Dental Care?</h1>
                 <p>If you are experiencing severe tooth pain, a broken tooth, swelling, or a dental injury, contact us immediately.</p>

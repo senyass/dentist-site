@@ -19,12 +19,11 @@ function Home({ setCurrentPage }) {
                         Quality dental care for every stage of life. From routine checkups to emergency treatment, we're here to help you smile with confidence.
                     </p>
 
-                    <button
-                        className="bg-pacific-blue text-alice-blue py-3 px-8 rounded-2xl w-max hover:bg-pacific-blue-hover shadow-md"
-                        onClick={() => setCurrentPage("appointment")}
-                    >
-                        Book an appointment
-                    </button>
+                    <div className="grid grid-cols-2  gap-x-10">
+                    <button className="bg-pacific-blue text-porcelain py-3 px-8 rounded-2xl w-max hover:bg-pacific-blue-hover shadow-md" onClick={() => setCurrentPage("appointment")} > Book an appointment </button>
+                    <button className="bg-porcelain text-emergency-red py-3 px-8 rounded-2xl w-max hover:bg-charcoal/5 shadow-md" onClick={() => setCurrentPage("emergency")} > Emergency care </button>
+
+                    </div>
 
                     <div className="flex gap-5 mt-2 text-charcoal">
                         <span className="bg-white/80 px-4 py-2 rounded-full shadow-sm"><CheckIcon className="-translate-y-[2px] mr-2" /> Same-Day Appointments</span>

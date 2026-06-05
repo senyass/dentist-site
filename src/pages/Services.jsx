@@ -3,7 +3,7 @@ import ServicesCard from "../components/ServicesCard";
 
 function Services({setCurrentPage, setSelectedServiceId}) {
     return (
-        <div className="mt-50 text-center">
+        <div className="mt-45 text-center">
             <div className="max-w-2xl mx-auto mb-10">
                 <h1 className="font-semibold mb-4">Care for Every Smiles</h1>
                 <p>Explore our full range of dental services designed to support your oral health at every stage of life.</p>

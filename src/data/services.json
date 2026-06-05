@@ -11,7 +11,8 @@
         "Personalized oral hygiene advice",
         "Prevention of future dental issues"
       ],
-      "duration": "30-60 minutes"
+      "duration": "30-60 minutes",
+      "image":"/public/service-images/routine-checkups.jpg"
     },
 
     {
@@ -26,7 +27,8 @@
         "Freshens breath",
         "Maintains overall oral health"
       ],
-      "duration": "45-60 minutes"
+      "duration": "45-60 minutes",
+      "image":"/public/service-images/dental-cleaning.jpg"
     },
 
     {
@@ -41,7 +43,8 @@
         "Quick and painless",
         "Suitable for children and adults"
       ],
-      "duration": "10-15 minutes"
+      "duration": "10-15 minutes",
+      "image":"/public/service-images/fluoride-treatment.jpg"
     },
 
     {
@@ -56,7 +59,8 @@
         "Low radiation exposure",
         "Fast and efficient process"
       ],
-      "duration": "15-30 minutes"
+      "duration": "15-30 minutes",
+      "image":"/public/service-images/xrays-diagnostics.jpg"
     },
 
     {
@@ -71,7 +75,8 @@
         "Enhanced confidence",
         "Better oral hygiene accessibility"
       ],
-      "duration": "Varies by treatment plan"
+      "duration": "Varies by treatment plan",
+      "image":"/public/service-images/orthodontics.jpg"
     },
 
     {
@@ -86,7 +91,8 @@
         "Customized treatment options",
         "Long-lasting results"
       ],
-      "duration": "Varies by procedure"
+      "duration": "Varies by procedure",
+      "image":"/public/service-images/cosmetic-dentistry.jpg"
     },
 
     {
@@ -101,7 +107,8 @@
         "Quick results",
         "Boosts confidence"
       ],
-      "duration": "60-90 minutes"
+      "duration": "60-90 minutes",
+      "image":"/public/service-images/teeth-whitening.jpg"
     },
 
     {
@@ -116,7 +123,8 @@
         "Emergency appointments available",
         "Prevent complications"
       ],
-      "duration": "Varies by condition"
+      "duration": "Varies by condition",
+      "image":"/public/service-images/tooth-pain.png"
     },
 
     {
@@ -131,7 +139,8 @@
         "Restores appearance",
         "Prevents infection"
       ],
-      "duration": "Varies by treatment"
+      "duration": "Varies by treatment",
+      "image":"/public/service-images/broken-tooth.jpg"
     },
 
     {
@@ -146,6 +155,7 @@
         "Prevents spread of infection",
         "Protects oral and overall health"
       ],
-      "duration": "Varies by severity"
+      "duration": "Varies by severity",
+      "image":"/public/service-images/infection.jpg"
     }
   ]

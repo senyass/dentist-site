@@ -3,7 +3,7 @@ import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 
 function Confirmation({ setCurrentPage }) {
     return (
-        <div className="mt-50">
+        <div className="mt-45">
               <div className="max-w-4xl mx-auto my-10 bg-alice-blue p-10 rounded-lg shadow-md shadow-pale-sky text-center">
                 <CheckCircleIcon className="text-[#4E8B68] scale-500 my-15" />
                 <h1 className="font-bold">Request Received !</h1>

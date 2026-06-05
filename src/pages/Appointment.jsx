@@ -11,7 +11,7 @@ function Appointment({ setCurrentPage }) {
     };
 
     return (
-        <div className="mt-50">
+        <div className="mt-45">
             <div className="max-w-4xl mx-auto text-center">
                 <h1 className="font-semibold mb-4">Book an Appointment</h1>
                 <p> We're here to help you achieve a healthy, confident smile. Complete the form below and a member of our team will contact you to confirm your appointment. </p>

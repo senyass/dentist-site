@@ -11,10 +11,10 @@ function Navbar({ currentPage, setCurrentPage, setSelectedServiceId }) {
     const inactiveLink = "hover:text-pacific-blue";
 
     return (
-        <nav className="fixed z-10000 top-0 left-0 right-0 flex justify-between items-center px-10 py-4 bg-alice-blue border-b border-gray-300">
+        <nav className="fixed z-10000 top-0 left-0 right-0 flex justify-between items-center px-10 bg-alice-blue border-b border-gray-300">
             {/* Logo */}
             <div>
-                <img src={Logo} alt="Dentist Website Logo" className="w-70" />
+                <img src={Logo} alt="Dentist Website Logo" className="ml-10 translate-y-5 w-50 scale-210 " />
             </div>
 
             {/* Navigation Links */}

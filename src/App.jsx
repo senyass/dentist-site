@@ -7,6 +7,8 @@ import Appointment from './pages/Appointment';
 import Emergency from './pages/Emergency';
 import Confirmation from './pages/Confirmation';
 import ServicePage from './components/ServicePage';
+import Footer from './components/Footer';
+import About from './pages/About'
 
 function App() {
   const [currentPage, setCurrentPage] = useState("home");
@@ -28,6 +30,10 @@ function App() {
         <Services setCurrentPage={setCurrentPage} setSelectedServiceId={setSelectedServiceId} />
       )}
 
+      {currentPage === "about" && (
+        <About />
+      )}
+
       {currentPage === "appointment" && (
         <Appointment setCurrentPage={setCurrentPage} />
       )}
@@ -41,8 +47,10 @@ function App() {
       )}
 
       {currentPage === "service-page" && (
-        <ServicePage selectedServiceId={selectedServiceId} />
+        <ServicePage setCurrentPage={setCurrentPage} selectedServiceId={selectedServiceId} />
       )}
+
+      <Footer />
     </>
   );
 }
