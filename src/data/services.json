@@ -1,0 +1,151 @@
+ [
+    {
+      "id": "routine-checkups",
+      "category": "Preventive Care",
+      "title": "Routine Checkups",
+      "shortDescription": "Regular dental examinations to maintain oral health and detect issues early.",
+      "overview": "Routine checkups help prevent dental problems before they become serious. During your visit, our team will examine your teeth, gums, and overall oral health.",
+      "benefits": [
+        "Early detection of cavities",
+        "Monitoring gum health",
+        "Personalized oral hygiene advice",
+        "Prevention of future dental issues"
+      ],
+      "duration": "30-60 minutes"
+    },
+
+    {
+      "id": "dental-cleaning",
+      "category": "Preventive Care",
+      "title": "Dental Cleaning",
+      "shortDescription": "Professional cleaning to remove plaque, tartar, and stains.",
+      "overview": "Our dental cleanings help keep your teeth healthy and your smile bright by removing buildup that regular brushing cannot eliminate.",
+      "benefits": [
+        "Reduces plaque and tartar",
+        "Helps prevent gum disease",
+        "Freshens breath",
+        "Maintains overall oral health"
+      ],
+      "duration": "45-60 minutes"
+    },
+
+    {
+      "id": "fluoride-treatment",
+      "category": "Preventive Care",
+      "title": "Fluoride Treatment",
+      "shortDescription": "Strengthens enamel and helps prevent tooth decay.",
+      "overview": "Fluoride treatments provide additional protection against cavities by reinforcing tooth enamel.",
+      "benefits": [
+        "Strengthens enamel",
+        "Reduces cavity risk",
+        "Quick and painless",
+        "Suitable for children and adults"
+      ],
+      "duration": "10-15 minutes"
+    },
+
+    {
+      "id": "xrays-diagnostics",
+      "category": "Preventive Care",
+      "title": "X-Rays & Diagnostics",
+      "shortDescription": "Advanced imaging to identify dental concerns that are not visible during a standard exam.",
+      "overview": "Digital X-rays help us diagnose cavities, infections, bone loss, and other oral health conditions accurately.",
+      "benefits": [
+        "Early diagnosis",
+        "Detailed treatment planning",
+        "Low radiation exposure",
+        "Fast and efficient process"
+      ],
+      "duration": "15-30 minutes"
+    },
+
+    {
+      "id": "orthodontics",
+      "category": "Specialized Care",
+      "title": "Orthodontics",
+      "shortDescription": "Treatment options to straighten teeth and improve bite alignment.",
+      "overview": "Orthodontic treatments can improve both the appearance and function of your smile.",
+      "benefits": [
+        "Straighter teeth",
+        "Improved bite function",
+        "Enhanced confidence",
+        "Better oral hygiene accessibility"
+      ],
+      "duration": "Varies by treatment plan"
+    },
+
+    {
+      "id": "cosmetic-dentistry",
+      "category": "Specialized Care",
+      "title": "Cosmetic Dentistry",
+      "shortDescription": "Enhance the appearance of your smile with personalized cosmetic treatments.",
+      "overview": "Our cosmetic dentistry services are designed to improve the color, shape, and overall appearance of your teeth.",
+      "benefits": [
+        "Improved smile aesthetics",
+        "Increased confidence",
+        "Customized treatment options",
+        "Long-lasting results"
+      ],
+      "duration": "Varies by procedure"
+    },
+
+    {
+      "id": "teeth-whitening",
+      "category": "Specialized Care",
+      "title": "Teeth Whitening",
+      "shortDescription": "Professional whitening treatments for a brighter smile.",
+      "overview": "Our whitening treatments safely remove stains and discoloration to help you achieve a brighter smile.",
+      "benefits": [
+        "Noticeably whiter teeth",
+        "Safe professional treatment",
+        "Quick results",
+        "Boosts confidence"
+      ],
+      "duration": "60-90 minutes"
+    },
+
+    {
+      "id": "tooth-pain",
+      "category": "Urgent Care",
+      "title": "Tooth Pain",
+      "shortDescription": "Prompt assessment and treatment for dental pain.",
+      "overview": "Persistent tooth pain can indicate an underlying issue. Our team provides timely care to identify and address the cause.",
+      "benefits": [
+        "Fast relief",
+        "Accurate diagnosis",
+        "Emergency appointments available",
+        "Prevent complications"
+      ],
+      "duration": "Varies by condition"
+    },
+
+    {
+      "id": "broken-tooth",
+      "category": "Urgent Care",
+      "title": "Broken Tooth",
+      "shortDescription": "Emergency treatment for chipped, cracked, or broken teeth.",
+      "overview": "A broken tooth should be treated as soon as possible to prevent further damage and discomfort.",
+      "benefits": [
+        "Protects remaining tooth structure",
+        "Reduces pain",
+        "Restores appearance",
+        "Prevents infection"
+      ],
+      "duration": "Varies by treatment"
+    },
+
+    {
+      "id": "infection",
+      "category": "Urgent Care",
+      "title": "Infection",
+      "shortDescription": "Urgent care for dental infections and swelling.",
+      "overview": "Dental infections can become serious if left untreated. We provide prompt diagnosis and treatment to protect your health.",
+      "benefits": [
+        "Rapid treatment",
+        "Pain management",
+        "Prevents spread of infection",
+        "Protects oral and overall health"
+      ],
+      "duration": "Varies by severity"
+    }
+  ]

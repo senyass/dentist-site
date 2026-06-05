@@ -1,0 +1,92 @@
+@import 'tailwindcss';
+
+/* ------- Base Styles ------- */
+
+body {
+    background-color: var(--color-porcelain);
+    margin: 0;
+    padding: 0;
+    color: var(--color-charcoal);
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p, button, label, li {
+    font-size: 20px;
+} 
+
+button {
+    cursor: pointer;
+}
+
+
+*,
+*::before,
+*::after {
+  transition:
+    color 0.3s ease,
+    background-color 0.3s ease,
+    border-color 0.3s ease,
+    transform 0.3s ease,
+    opacity 0.3s ease;
+}
+
+
+/* ------- Form Styles ------- */
+
+.form-input, .form-select, .form-textarea {
+  @apply w-full p-3 rounded-md border border-gray-300 bg-porcelain
+         focus:outline-none focus:ring-2 focus:ring-pacific-blue;
+}
+
+.form-card {
+  @apply p-5 rounded-md border border-gray-300 bg-porcelain;
+}
+
+.form-label {
+  @apply block font-medium mb-2;
+}
+
+
+/* ------- Services Navbar Styles ------- */
+
+.navbar-service {
+    @apply block mb-2 w-full text-left px-3 py-2 rounded-md flex justify-between hover:bg-charcoal/10;
+}
+
+/* ------- Daypicker Modifications ------- */
+
+.rdp-root {
+  --rdp-accent-color: #6EB5C9 !important;
+}
+
+
+/* ------- Text Fonts ------- */
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.open-sans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* ------- Color Palette ------- */
+@theme {
+    --color-pacific-blue: #6EB5C9;
+    --color-pacific-blue-hover: #5AA0B3;
+    --color-pale-sky: #C9E6EE;
+    --color-alice-blue: #E8F0F2;
+    --color-porcelain: #FAF9F5;
+    --color-charcoal: #333333;
+    --color-emergency-red: #D62828;
+    --color-emergency-red-hover: #B71C1C;
+}
