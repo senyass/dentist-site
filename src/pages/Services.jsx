@@ -1,5 +1,7 @@
-import heroImage from "../assets/hero.png";
 import ServicesCard from "../components/ServicesCard";
+import generalDentistry from "../assets/general-dentistry.jpg";
+import cosmeticDentistry from "../assets/cosmetic-dentistry.jpg";
+import urgentCare from "../assets/urgent-care.jpg";
 
 function Services({setCurrentPage, setSelectedServiceId}) {
     return (
@@ -13,7 +15,7 @@ function Services({setCurrentPage, setSelectedServiceId}) {
                 title="General Dentistry"
                 description="Our general dentistry services focus on preventive care and maintaining your oral health. From routine check-ups to cleanings, we provide comprehensive care to keep your smile healthy and bright."
                 servicesIds={["routine-checkups", "dental-cleaning", "fluoride-treatment", "xrays-diagnostics"]}
-                image={heroImage}
+                image={generalDentistry}
                 setCurrentPage={setCurrentPage}
                 setSelectedServiceId={setSelectedServiceId}
             />
@@ -22,7 +24,7 @@ function Services({setCurrentPage, setSelectedServiceId}) {
                 title="Cosmetic Dentistry"
                 description="Enhance the beauty of your smile with our cosmetic dentistry services. We offer teeth whitening, veneers, and smile makeovers to help you achieve the confident smile you deserve."
                 servicesIds={["orthodontics", "cosmetic-dentistry", "teeth-whitening"]}
-                image={heroImage}
+                image={cosmeticDentistry}
                 flip={true}
                 setCurrentPage={setCurrentPage}
                 setSelectedServiceId={setSelectedServiceId}
@@ -32,7 +34,7 @@ function Services({setCurrentPage, setSelectedServiceId}) {
                 title="Urgent Care"
                 description="We provide immediate care for dental emergencies and acute pain. Our urgent care services ensure you receive prompt attention to alleviate discomfort and prevent further complications."
                 servicesIds={["tooth-pain", "broken-tooth", "infection"]}
-                image={heroImage}
+                image={urgentCare}
                 setCurrentPage={setCurrentPage}
                 setSelectedServiceId={setSelectedServiceId}
             />
