@@ -25,6 +25,7 @@ p, button, label, li {
 
 button {
     cursor: pointer;
+    font-family: 'Montserrat';
 }
 
 
