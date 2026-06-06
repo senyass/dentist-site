@@ -10,7 +10,7 @@ function ServicePage({ selectedServiceId, setCurrentPage }) {
 
 
     return (
-        <div className="mt-45 text-center">
+        <div className="mt-45 text-center mb-10">
             <div className="p-16" style={{ backgroundImage: `linear-gradient(#E8F0F299, #E8F0F299), url(${pattern})`, backgroundPosition: "center", backgroundSize: "cover" }}>
                 <h2 className="font-semibold mb-3"> Services </h2>
 
