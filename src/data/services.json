@@ -12,7 +12,7 @@
         "Prevention of future dental issues"
       ],
       "duration": "30-60 minutes",
-      "image":"/public/service-images/routine-checkups.jpg"
+      "image":"/service-images/routine-checkups.jpg"
     },
 
     {
@@ -28,7 +28,7 @@
         "Maintains overall oral health"
       ],
       "duration": "45-60 minutes",
-      "image":"/public/service-images/dental-cleaning.jpg"
+      "image":"/service-images/dental-cleaning.jpg"
     },
 
     {
@@ -44,7 +44,7 @@
         "Suitable for children and adults"
       ],
       "duration": "10-15 minutes",
-      "image":"/public/service-images/fluoride-treatment.jpg"
+      "image":"/service-images/fluoride-treatment.jpg"
     },
 
     {
@@ -60,7 +60,7 @@
         "Fast and efficient process"
       ],
       "duration": "15-30 minutes",
-      "image":"/public/service-images/xrays-diagnostics.jpg"
+      "image":"/service-images/xrays-diagnostics.jpg"
     },
 
     {
@@ -76,7 +76,7 @@
         "Better oral hygiene accessibility"
       ],
       "duration": "Varies by treatment plan",
-      "image":"/public/service-images/orthodontics.jpg"
+      "image":"/service-images/orthodontics.jpg"
     },
 
     {
@@ -92,7 +92,7 @@
         "Long-lasting results"
       ],
       "duration": "Varies by procedure",
-      "image":"/public/service-images/cosmetic-dentistry.jpg"
+      "image":"/service-images/cosmetic-dentistry.jpg"
     },
 
     {
@@ -108,7 +108,7 @@
         "Boosts confidence"
       ],
       "duration": "60-90 minutes",
-      "image":"/public/service-images/teeth-whitening.jpg"
+      "image":"/service-images/teeth-whitening.jpg"
     },
 
     {
@@ -124,7 +124,7 @@
         "Prevent complications"
       ],
       "duration": "Varies by condition",
-      "image":"/public/service-images/tooth-pain.png"
+      "image":"/service-images/tooth-pain.png"
     },
 
     {
@@ -140,7 +140,7 @@
         "Prevents infection"
       ],
       "duration": "Varies by treatment",
-      "image":"/public/service-images/broken-tooth.jpg"
+      "image":"/service-images/broken-tooth.jpg"
     },
 
     {
@@ -156,6 +156,6 @@
         "Protects oral and overall health"
       ],
       "duration": "Varies by severity",
-      "image":"/public/service-images/infection.jpg"
+      "image":"/service-images/infection.jpg"
     }
   ]
